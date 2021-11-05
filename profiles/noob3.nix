@@ -10,6 +10,7 @@
     ../locale.nix
     ../fonts.nix
     ../packages.nix
-    ../zsh.nix
+    #../zsh.nix
+    ../fish.nix
   ];
 }
