@@ -2,6 +2,7 @@
 
 let 
   clang = pkgs.llvmPackages_12.libclang;
+  llvm = pkgs.llvmPackages_12.llvm;
   python3 = pkgs.python39;
 in  
 {
@@ -29,11 +30,14 @@ in
     pkgs.autojump
 
     python3
+    llvm
     clang
 	
     # misc
     pkgs.smartmontools
     pkgs.cpu-x
+    pkgs.fd
+    pkgs.ripgrep
 
     # desktop
     pkgs.libsForQt5.yakuake
