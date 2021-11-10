@@ -38,6 +38,7 @@ in
     pkgs.cpu-x
     pkgs.fd
     pkgs.ripgrep
+    pkgs.tokei
 
     # desktop
     pkgs.libsForQt5.yakuake
