@@ -42,6 +42,7 @@ in
 
     # desktop
     pkgs.libsForQt5.yakuake
+    pkgs.libsForQt5.okular
 
     # dev 
     pkgs.jetbrains.clion
